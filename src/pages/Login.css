@@ -1,0 +1,94 @@
+/* ============================= */
+/* GLOBAL DATA PLATFORM THEME */
+/* ============================= */
+
+.idh-bg {
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at 15% 20%, #5f6cff, transparent 40%),
+      radial-gradient(circle at 85% 80%, #00d2ff, transparent 45%),
+      linear-gradient(135deg, #0f172a, #020617);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Glass Card */
+  .idh-card {
+    width: 420px;
+    padding: 48px 40px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow:
+      0 30px 60px rgba(0, 0, 0, 0.45),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Logo Gradient */
+  .idh-logo {
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+    background: linear-gradient(
+      90deg,
+      #5f6cff,
+      #00d2ff
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  
+  /* Tagline */
+  .idh-tagline {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 34px;
+  }
+  
+  /* Inputs */
+  .idh-card input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    border: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.92);
+  }
+  
+  .idh-card input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(95, 108, 255, 0.4);
+  }
+  
+  /* Button */
+  .idh-card button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(
+      135deg,
+      #5f6cff,
+      #00d2ff
+    );
+    color: #020617;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.35s ease;
+  }
+  
+  .idh-card button:hover {
+    transform: translateY(-3px);
+    box-shadow:
+      0 18px 40px rgba(0, 210, 255, 0.45);
+  }
+  
