@@ -1,0 +1,170 @@
+{
+    "categories": {
+      "Africa": {
+        "Egypt": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        },
+        "South Africa": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        }
+      },
+      "Americas": {
+        "United States of America": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        },
+        "Canada": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        }
+      },
+      "Asia": {
+        "India": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        },
+        "Japan": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        }
+      },
+      "Europe": {
+        "United Kingdom": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        },
+        "Germany": {
+          "External Sector": {},
+          "External Trade": {},
+          "Government Finance": {},
+          "Inflation": {},
+          "Labour Market": {},
+          "National Accounts": {},
+          "Social Sector": {}
+        }
+      }
+    },
+    "frequent": [
+      {
+        "id": "IMFWEOEMPL00A:USA",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Number of People Employed",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Number",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPL00A:USA"],
+        "region": "USA"
+      },
+      {
+        "id": "IMFWEOEMPL00A:GBR",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Number of People Employed",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Number",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPL00A:GBR"],
+        "region": "GBR"
+      },
+      {
+        "id": "IMFWEOEMPL00A:DEU",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Number of People Employed",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Number",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPL00A:DEU"],
+        "region": "DEU"
+      },
+      {
+        "id": "IMFWEOEMPR00A:USA",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Unemployment Rate",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Percentage",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPR00A:USA"],
+        "region": "USA"
+      },
+      {
+        "id": "IMFWEOEMPR00A:JPN",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Unemployment Rate",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Percentage",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPR00A:JPN"],
+        "region": "JPN"
+      },
+      {
+        "id": "IMFWEOEMPI00A:EUR",
+        "db": "IMF",
+        "table_name": "IMF",
+        "title": "Employment Index (Base year: 2000=100)",
+        "cat": "Labour Market",
+        "subCat": "Employment",
+        "freq": "Annual",
+        "unit": "Index",
+        "src": "IMF",
+        "datatype": "N",
+        "hierarchy": ["IMFWEOEMPI00A:EUR"],
+        "region": "EUR"
+      }
+    ]
+  }
+  

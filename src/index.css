@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f6f7fb;
+}
+
+/* Login */
+.login {
+  width: 300px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Top bar */
+.topbar {
+  background: #241c6a;
+  color: white;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.search {
+  flex: 1;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #f4f6fb;
+  padding: 8px 0;
+  height: calc(100vh - 48px);
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-header {
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background: #e6ebff;
+}
+
+.arrow {
+  width: 14px;
+  font-size: 12px;
+}
+
+/* Indentation */
+.level-1 { padding-left: 32px; }
+.level-2 { padding-left: 48px; }
+.level-3 { padding-left: 64px; }
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Pagination */
+.pagination button {
+  margin: 4px;
+}
+
+.pagination .active {
+  background: #241c6a;
+  color: white;
+}
